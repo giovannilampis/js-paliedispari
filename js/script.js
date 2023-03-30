@@ -11,10 +11,6 @@ const typeWord = document.getElementById("type-word");
 
 const checkWord = document.getElementById("check-word");
 
-// get the #result element in html
-
-const result = document.getElementById("result");
-
 // create a function that can verify wether a word is a palindrome or not
 function truePalindrome(word) {
 
@@ -106,6 +102,10 @@ function isEven(num) {
 
 play.addEventListener("click", function() {
 
+    // get the #result element in html
+
+    const result = document.getElementById("result-odd-even");
+
     // get the user's choice between even and odd
 
     const oddEvenChoice = chooseOddEven.value;
@@ -120,23 +120,14 @@ play.addEventListener("click", function() {
 
     // get the sum of user's number and random number
 
-    const total = sum(chosenNumber, computerRandomNumber)
+    const total = sum(chosenNumber, computerRandomNumber);
+
+    if ( ( (oddEvenChoice == 'even') && (isEven(total) == true) ) || ( (oddEvenChoice == 'odd') && (isEven(total) == false) ) ) {
+
+        result.innerHTML = `Hai vinto la sfida !`
+
+    } else {
+        result.innerHTML = `Siamo spiacenti, ha vinto la CPU`
+    }
 
 })
-
-// Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
-
-
-
-
-
-
-// Sommiamo i due numeri
-
-
-
-// Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
-
-
-
-// Dichiariamo chi ha vinto.
