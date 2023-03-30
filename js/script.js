@@ -79,6 +79,9 @@ function randomNumberMinMax(min, max) {
     return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
 
+// a function will add the number chosen by the user...
+// ... to the random number excerpt for the game
+
 // ADD EVENT LISTENER
 
 play.addEventListener("click", function() {
