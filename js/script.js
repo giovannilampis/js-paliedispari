@@ -82,6 +82,10 @@ function randomNumberMinMax(min, max) {
 // a function will add the number chosen by the user...
 // ... to the random number excerpt for the game
 
+function sum (num1, num2) {
+    return num1 + num2;
+}
+
 // ADD EVENT LISTENER
 
 play.addEventListener("click", function() {
