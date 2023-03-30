@@ -43,8 +43,11 @@ checkWord.addEventListener("click", function() {
     // ... the entered word is a palindrome or not
     
     if (verify === true) {
+
         result.innerHTML = `La parola ${typeWord.value} è un vero palindromo 😍`;
+
     } else {
+
         result.innerHTML = `La parola inserita non è un palindromo 😭`;
     }
 })
@@ -66,9 +69,18 @@ const launch = document.getElementById("launch");
 
 const resultOddEven = document.getElementById("result-odd-even");
 
-// Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
+// get the #play element in html
 
 const play = document.getElementById("play");
+
+// ADD EVENT LISTENER
+
+play.addEventListener("click", function() {
+    
+})
+
+// Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
+
 
 
 
