@@ -32,8 +32,13 @@ function truePalindrome(word) {
 
 checkWord.addEventListener("click", function() {
 
+    // create a boolean variable by using the word entered ...
+    // ... as a parameter of the function truePalindrome
     const verify = truePalindrome( typeWord.value );
 
+    // the result will be different depending on whether ...
+    // ... the entered word is a palindrome or not
+    
     if (verify === true) {
         result.innerHTML = `La parola ${typeWord.value} è un vero palindromo 😍`;
     } else {
