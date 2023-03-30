@@ -53,8 +53,6 @@ checkWord.addEventListener("click", function() {
 // EXERCISE 2 : ODD OR EVEN GAME
 
 
-// L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
-
 // get the select element in html
 
 const chooseOddEven = document.getElementById("choose-odd-even");
@@ -122,11 +120,20 @@ play.addEventListener("click", function() {
 
     const total = sum(chosenNumber, computerRandomNumber);
 
+    // the user will win the challenge if ...
+
     if ( ( (oddEvenChoice == 'even') && (isEven(total) == true) ) || ( (oddEvenChoice == 'odd') && (isEven(total) == false) ) ) {
+
+        // ... and the result will appear in the html
 
         result.innerHTML = `Hai vinto la sfida !`
 
-    } else {
+        // otherwise the winner will be the computer ...
+
+    }   else {
+
+        // and also in this case the result will be shown in the html
+        
         result.innerHTML = `Siamo spiacenti, ha vinto la CPU`
     }
 
