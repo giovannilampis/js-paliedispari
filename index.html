@@ -29,36 +29,44 @@
 
     <section class="container-game text-center py-3">
 
-        <p class="fs-1">Odd or Even game</p>
+        <div class="sub-container">
 
-        <div class="pt-2">
+            <p class="fs-1">Odd or Even game</p>
 
-            <span>Scegli se puntare sul pari oppure sul dispari 👉</span>
-
-            <select name="chooseOddEven" id="choose-odd-even">
-
-                <option value="odd">Dispari</option>
+            <div class="pt-2">
     
-                <option value="even">Pari</option>
+                <span>Scegli se puntare sul pari oppure sul dispari 👇</span>
     
-            </select>
+                <select class="form-select mt-3" name="chooseOddEven" id="choose-odd-even">
+    
+                    <option value="odd">Dispari</option>
+        
+                    <option value="even">Pari</option>
+        
+                </select>
+    
+            </div>
+    
+            <!-- <div class="py-4">
+    
+                <span>Adesso scegli un numero compreso tra 1 e 5 👉</span>
+    
+                <input id="launch" type="number" min="1" max="5">
+    
+            </div> -->
+
+            <div class="form-group py-3">
+                <label for="launch">Adesso scegli un numero compreso tra 1 e 5 👇</label>
+                <input type="number" class="form-control mt-3" id="launch" placeholder="Fate il vostro gioco">
+              </div>
+    
+            <p>Al tuo click, la CPU sceglierà un numero per sè</p>
+    
+            <button id="play" class="btn btn-warning mb-3">PLAY</button>
+           
+            <p id="result-odd-even">Vincerai se il totale dei tuoi numeri <br>corrisponderà alla tua scelta tra pari o dispari</p>
 
         </div>
-
-        <div class="py-4">
-
-            <span>Adesso scegli un numero compreso tra 1 e 5 👉</span>
-
-            <input id="launch" type="number" min="1" max="5">
-
-        </div>
-
-        <p>Al tuo click, la CPU sceglierà un numero per sè</p>
-
-        <button id="play" class="btn btn-warning mb-3">PLAY</button>
-       
-        <p id="result-odd-even">Vincerai se il totale dei tuoi numeri <br>corrisponderà alla tua scelta tra pari o dispari</p>
-
 
     </section>
     

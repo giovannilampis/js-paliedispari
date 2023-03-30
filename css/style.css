@@ -36,3 +36,7 @@ img {
 .container-game:nth-child(2) {
     background-color: var(--azure);
 }
+
+.sub-container {
+    padding: 0 5rem;
+}
