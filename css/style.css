@@ -1,7 +1,8 @@
 /* COLOR VARIABLES */
 
 :root {
-
+    --azure: rgb(93, 199, 236);
+    --yellow: rgb(246, 195, 68);
 }
 
 /* GENERAL*/
@@ -25,13 +26,13 @@ img {
 .container-game {
     width: 80%;
     margin: 2rem auto;
-    border-radius: 3rem;
+    border-radius: 2rem;
 }
 
 .container-game:first-child {
-    background-color: gold;
+    background-color: var(--yellow);
 }
 
 .container-game:nth-child(2) {
-    background-color: turquoise;
+    background-color: var(--azure);
 }
