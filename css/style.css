@@ -24,6 +24,14 @@ img {
 
 .container-game {
     width: 80%;
+    margin: 2rem auto;
+    border-radius: 3rem;
+}
 
-    margin: 3rem auto;
+.container-game:first-child {
+    background-color: gold;
+}
+
+.container-game:nth-child(2) {
+    background-color: turquoise;
 }
