@@ -14,18 +14,31 @@
 </head>
 <body>
 
+    <!-- EXERCISE 1 -->
+
     <section class="container-game text-center py-3">
 
-        <p class="fs-1">Palindrome Finder</p>
+        <div class="sub-container">
 
-        <p class="py-sm-2">Meravigliosa interfaccia 🤩 che cela un algoritmo ... <br>...capace di scoprire se una parola è palindroma 🧐</p>
-        <p class="pb-3">La parola che hai in mente è un palindromo 🕵️ ?</p>
-        <div class="cloche">
-            <input type="text" id="type-word" name="type" placeholder="digita una parola 👈">
-            <button id="check-word" class="btn btn-info">VERIFY</button>
+            <p class="fs-1">Palindrome Finder</p>
+
+            <p class="py-sm-2">Meravigliosa interfaccia 🤩 che cela un algoritmo capace di scoprire se una parola è palindroma 🧐</p>
+    
+            <p>La parola che hai in mente è un palindromo 🕵️ ?</p>
+    
+            <div class="form-group pb-3">
+                <input type="text" class="form-control mt-3" id="type-word" placeholder="Digita la parola 👈">
+            </div>
+    
+            <button id="check-word" class="btn btn-info mt-2">VERIFY</button>
+    
+            <p id="result" class="pt-3">Scoprilo subito</p>
+
         </div>
-        <p id="result" class="pt-3">Scoprilo subito</p>
+
     </section>
+
+    <!-- EXERCISE 2 -->
 
     <section class="container-game text-center py-3">
 
@@ -34,42 +47,34 @@
             <p class="fs-1">Odd or Even game</p>
 
             <div class="pt-2">
-    
+
                 <span>Scegli se puntare sul pari oppure sul dispari 👇</span>
-    
+
                 <select class="form-select mt-3" name="chooseOddEven" id="choose-odd-even">
-    
+
                     <option value="odd">Dispari</option>
-        
+
                     <option value="even">Pari</option>
-        
+
                 </select>
-    
+
             </div>
-    
-            <!-- <div class="py-4">
-    
-                <span>Adesso scegli un numero compreso tra 1 e 5 👉</span>
-    
-                <input id="launch" type="number" min="1" max="5">
-    
-            </div> -->
 
             <div class="form-group py-3">
                 <label for="launch">Adesso scegli un numero compreso tra 1 e 5 👇</label>
                 <input type="number" class="form-control mt-3" id="launch" placeholder="Fate il vostro gioco">
-              </div>
-    
+            </div>
+
             <p>Al tuo click, la CPU sceglierà un numero per sè</p>
-    
+
             <button id="play" class="btn btn-warning mb-3">PLAY</button>
-           
-            <p id="result-odd-even">Vincerai se il totale dei tuoi numeri <br>corrisponderà alla tua scelta tra pari o dispari</p>
+
+            <p id="result-odd-even">Vincerai se il totale dei tuoi numeri corrisponderà alla tua scelta tra pari o dispari</p>
 
         </div>
 
     </section>
-    
+
     <script src="./js/script.js"></script>
 </body>
 </html>
