@@ -73,10 +73,16 @@ const resultOddEven = document.getElementById("result-odd-even");
 
 const play = document.getElementById("play");
 
+// a function can create a random number between two digits
+
+function randomNumberMinMax(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
+
 // ADD EVENT LISTENER
 
 play.addEventListener("click", function() {
-    
+
 })
 
 // Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
