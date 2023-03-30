@@ -126,15 +126,15 @@ play.addEventListener("click", function() {
 
         // ... and the result will appear in the html
 
-        result.innerHTML = `Hai vinto la sfida !`
+        result.innerHTML = `Hai vinto la sfida 😎`
 
         // otherwise the winner will be the computer ...
 
     }   else {
 
         // and also in this case the result will be shown in the html
-        
-        result.innerHTML = `Siamo spiacenti, ha vinto la CPU`
+
+        result.innerHTML = `Siamo spiacenti, la CPU ha vinto la sfida 🙃`
     }
 
 })

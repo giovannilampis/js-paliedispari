@@ -14,34 +14,52 @@
 </head>
 <body>
 
-    <div class="container-game text-center">
-        <p class="py-3">Meravigliosa interfaccia 😯 che cela un algoritmo capace di scoprire se una parola è palindroma</p>
+    <section class="container-game text-center">
+
+        <p class="fs-1">Palindrome Finder</p>
+
+        <p class="py-3">Meravigliosa interfaccia 🤩 che cela un algoritmo ... <br>...capace di scoprire se una parola è palindroma 🧐</p>
         <p class="py-3">La parola che hai in mente è un palindromo 🕵️ ?</p>
         <div class="cloche">
             <input type="text" id="type-word" name="type" placeholder="digita una parola 👈">
             <button id="check-word">VERIFY</button>
         </div>
-        <p id="result" class="py-3"></p>
-    </div>
+        <p id="result" class="py-3">Scoprilo subito</p>
+    </section>
 
-    <div class="container-game">
+    <section class="container-game text-center">
+
+        <p class="fs-1">Odd or Even game</p>
+
+        <div class="pt-2">
+
+            <span>Scegli se puntare sul pari oppure sul dispari</span>
 
             <select name="chooseOddEven" id="choose-odd-even">
 
                 <option value="odd">Dispari</option>
-
+    
                 <option value="even">Pari</option>
-
+    
             </select>
+
+        </div>
+
+        <div class="py-4">
+
+            <span>Adesso scegli un numero compreso tra 1 e 5</span>
 
             <input id="launch" type="number" min="1" max="5">
 
-            <button id="play">PLAY</button>
-
-            <p id="result-odd-even"></p>
+        </div>
 
 
-    </div>
+        <button id="play">PLAY</button>
+
+        <p id="result-odd-even"></p>
+
+
+    </section>
     
     <script src="./js/script.js"></script>
 </body>
