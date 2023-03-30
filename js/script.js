@@ -110,9 +110,13 @@ play.addEventListener("click", function() {
 
     const oddEvenChoice = chooseOddEven.value;
 
-    // get the number 1-5 chosen by the user
+    // get the number 1 to 5 chosen by the user
 
     const chosenNumber = launch.value;
+
+    // create a random number 1 to 5 for computer's launch
+
+    const computerRandomNumber = randomNumberMinMax(1, 5);
 
 })
 
