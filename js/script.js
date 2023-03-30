@@ -1,4 +1,7 @@
 "use strict"
+
+// EXERCISE 1 : PALINDROME WORD
+
 // get the #type-word element in html
 
 const typeWord = document.getElementById("type-word");
@@ -45,3 +48,24 @@ checkWord.addEventListener("click", function() {
         result.innerHTML = `La parola inserita non è un palindromo 😭`;
     }
 })
+
+
+// EXERCISE 2 : ODD OR EVEN GAME
+
+// L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
+
+
+
+// Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
+
+
+
+// Sommiamo i due numeri
+
+
+
+// Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
+
+
+
+// Dichiariamo chi ha vinto.
