@@ -2,6 +2,7 @@
 
 // EXERCISE 1 : PALINDROME WORD
 
+
 // get the #type-word element in html
 
 const typeWord = document.getElementById("type-word");
@@ -55,6 +56,7 @@ checkWord.addEventListener("click", function() {
 
 // EXERCISE 2 : ODD OR EVEN GAME
 
+
 // L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
 
 // get the select element in html
@@ -103,6 +105,14 @@ function isEven(num) {
 // ADD EVENT LISTENER
 
 play.addEventListener("click", function() {
+
+    // get the user's choice between even and odd
+
+    const oddEvenChoice = chooseOddEven.value;
+
+    // get the number 1-5 chosen by the user
+
+    const chosenNumber = launch.value;
 
 })
 
