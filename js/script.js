@@ -86,6 +86,20 @@ function sum (num1, num2) {
     return num1 + num2;
 }
 
+// a function will tell if the sum of the two numbers is even
+
+function isEven(num) {
+    if(num % 2 === 0) {
+
+        return true
+
+    } else {
+
+        return false
+
+    }
+}
+
 // ADD EVENT LISTENER
 
 play.addEventListener("click", function() {
