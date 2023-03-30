@@ -118,6 +118,10 @@ play.addEventListener("click", function() {
 
     const computerRandomNumber = randomNumberMinMax(1, 5);
 
+    // get the sum of user's number and random number
+
+    const total = sum(chosenNumber, computerRandomNumber)
+
 })
 
 // Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
