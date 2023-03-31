@@ -110,7 +110,7 @@ play.addEventListener("click", function() {
 
     // get the number 1 to 5 chosen by the user
 
-    const chosenNumber = launch.value;
+    const chosenNumber = parseInt(launch.value);
 
     // create a random number 1 to 5 for computer's launch
 
